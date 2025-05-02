@@ -1,0 +1,214 @@
+/* subscribeSection */
+.subscribe-section {
+    background-color: #94d3a2;
+    padding: 60px 20px;
+    text-align: center;
+    position: relative;
+    width: 1030px;
+    margin: auto;
+  }
+  
+  .subscribe-section h2 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .subscribe-section p {
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+  .subscribe-section .subscribe-form input[type="email"] {
+    border-radius: 5px 0 0 5px;
+    height: 50px;
+    padding-left: 20px;
+  }
+  
+  .subscribe-section .subscribe-form button {
+    border-radius: 0 5px 5px 0;
+    height: 50px;
+    background-color: #665ca7;
+    color: white;
+  }
+  
+  .subscribe-section .circle-decor {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #665ca7;
+    bottom: -30px;
+    right: 50px;
+  }
+  
+  /* === Responsive Styles for subscribe-section === */
+  
+  /* Medium devices (tablets, up to 991.98px) */
+  @media (max-width: 991.98px) {
+    .subscribe-section {
+      width: 100%;
+      padding: 50px 15px;
+    }
+  
+    .subscribe-section h2 {
+      font-size: 1.75rem;
+    }
+  
+    .subscribe-section .subscribe-form {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .subscribe-section .subscribe-form input[type="email"],
+    .subscribe-section .subscribe-form button {
+      width: 100% !important;
+      border-radius: 5px !important;
+    }
+  
+    .subscribe-section .circle-decor {
+      right: 20px;
+      bottom: -30px;
+    }
+  }
+  
+  /* Small devices (phones, up to 767.98px) */
+  @media (max-width: 767.98px) {
+    .subscribe-section h2 {
+      font-size: 1.5rem;
+    }
+  
+    .subscribe-section p {
+      font-size: 14px;
+    }
+  
+    .subscribe-section .subscribe-form input[type="email"] {
+      padding-left: 15px;
+      font-size: 14px;
+    }
+  
+    .subscribe-section .subscribe-form button {
+      font-size: 14px;
+    }
+  
+    .subscribe-section .circle-decor {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  
+  
+  
+  /* footerSection */
+  .footer {
+    background-color: #fff;
+    padding: 60px 20px 20px !important;
+    margin-left: 100px !important;
+    margin-top: 50px !important;
+  }
+  
+  .footer h6 {
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .footer p,
+  .footer a {
+    color: #777;
+    font-size: 14px;
+  }
+  
+  .footer a:hover {
+    color: #665ca7;
+    text-decoration: none;
+  }
+  
+  .footer-bottom {
+    background-color: #665ca7;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 14px;
+  }
+  /* === Responsive Styles for Footer Section === */
+  
+  /* Medium devices (tablets, up to 991.98px) */
+  /* @media (max-width: 991.98px) {
+    .footer .row > div {
+      margin-bottom: 30px;
+    }
+  
+    .footer {
+      padding: 40px 15px 15px;
+      text-align: center;
+    }
+  
+    .footer .row.text-left {
+      text-align: center !important;
+    }
+  }
+   */
+  /* Small devices (phones, up to 767.98px) */
+  /* @media (max-width: 767.98px) {
+    .footer {
+      padding: 30px 10px 10px;
+    }
+  
+    .footer h6 {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+  
+    .footer p,
+    .footer a {
+      font-size: 13px;
+    }
+  
+    .footer-bottom {
+      font-size: 13px;
+      padding: 12px 5px;
+    }
+  } */
+
+
+  /* Responsive Adjustments for Footer */
+@media (max-width: 991.98px) {
+  .footer {
+    margin-left: 0 !important;
+    padding: 40px 15px 20px !important;
+  }
+
+  .footer .row > div {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .footer h6 {
+    font-size: 16px;
+  }
+
+  .footer p,
+  .footer a {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .footer {
+    padding: 30px 10px 15px !important;
+  }
+
+  .footer h6 {
+    font-size: 15px;
+  }
+
+  .footer p,
+  .footer a {
+    font-size: 12.5px;
+  }
+
+  .footer-bottom {
+    font-size: 13px;
+    padding: 12px 8px;
+  }
+}

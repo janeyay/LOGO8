@@ -1,0 +1,193 @@
+/* VIDEOSECTION */
+.video-section{
+    margin-top: 40px;
+    background-color: #f8f6ff;
+    height: 750px;
+    width: 100% !important;
+  }
+  .video-section .container{
+      padding: 30px;
+  }
+  .video-section .container .row{
+    margin-top: 50px !important;
+  }
+  .video-section .main-heading {
+      font-size: 36px;
+      color: #343a40;
+      margin-bottom: 50px;
+      text-align: left;
+      font-weight: 400px !important;
+      letter-spacing: 1px;
+  }
+  .video-section .left-section {
+      margin-bottom: 30px;
+  }
+  .video-section .mentor-image-container {
+      position: relative;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .video-section .mentor-image {
+      width: 100%;
+      display: block;
+  }
+  .video-section .play-button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(255, 255, 255, 0.7);
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  }
+  .video-section .play-button:hover {
+      background-color: rgba(255, 255, 255, 0.9);
+  }
+  .video-section .play-icon {
+      border-left: 20px solid #85D1A0;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      height: 0;
+      width: 0;
+  }
+  .video-section .mentor-intro-heading {
+      font-size: 24px;
+      color: #343a40;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      text-align: left;
+  }
+  .video-section .mentor-intro-text {
+      color: #6c757d;
+      text-align: left;
+  }
+
+  .video-section .recorded-class-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 70px !important;
+  }
+  .video-section .recorded-class-card {
+      background-color: white;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  .video-section .class-icon-container {
+      background-color: #b7e5c8;
+      border-radius: 10%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto 15px;
+  }
+  .video-section .class-icon {
+      color: #85D1A0;
+      font-size: 1.5rem;
+  }
+  .video-section .class-title {
+      font-size: 1rem;
+      color: #343a40;
+      margin-bottom: 5px;
+  }
+  .video-section .class-description {
+      color: #6c757d;
+      font-size: 0.875rem;
+  }
+  .video-section .right-section .sub-text{
+    margin-top: -80px !important;
+    color: #6c757d;
+    margin-bottom: 30px;
+  }
+  
+  /* @media (min-width: 992px) {
+      .left-section {
+          margin-bottom: 0;
+      }
+  } */
+  
+  /* === Responsive Styles for video-section === */
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (max-width: 991.98px) {
+    .video-section {
+      height: auto;
+      padding-bottom: 40px;
+    }
+  
+    .video-section .row {
+      flex-direction: column;
+    }
+  
+    .video-section .left-section {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+  
+    .video-section .mentor-image-container {
+      width: 80%;
+      margin: 0px 0px 0px 0px !important;
+    }
+    
+    .video-section .right-section .sub-text {
+      text-align: left !important;
+      margin-top: 10px !important;
+    }
+  
+    .video-section .recorded-class-grid {
+      margin-top: 30px !important;
+    }
+  }
+  
+  /* Small devices (phones, less than 768px) */
+  @media (max-width: 767.98px) {
+    .video-section {
+      padding: 20px;
+    }
+  
+    .video-section .main-heading {
+      font-size: 1.75rem;
+    }
+  
+    .video-section .mentor-intro-heading {
+      font-size: 1.1rem;
+    }
+  
+    .video-section .mentor-image-container {
+      width: 100%;
+    }
+  
+    .video-section .recorded-class-grid {
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
+  
+    .video-section .recorded-class-card {
+      padding: 15px;
+    }
+  
+    .video-section .class-title {
+      font-size: 0.95rem;
+    }
+  
+    .video-section .class-description {
+      font-size: 0.85rem;
+    }
+  }
+
+
+
+
+
+  

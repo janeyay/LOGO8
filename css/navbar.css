@@ -1,0 +1,38 @@
+/* body {
+  padding: 0px !important;
+  } */
+  .navbar {
+    background: white;
+    padding: 20px 100px !important;
+  }
+  
+  .navbar .navbar-brand {
+    color: #6255A5;
+  }
+  
+  .navbar .nav-link {
+    font-size: 18px;
+    color: #2a2a2a;
+  }
+  
+  .navbar .btn {
+    font-size: 16px;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #85D1A0;
+    border: none;
+  }
+  
+  /* Add spacing utilities */
+  .gap-3 {
+    gap: 18px;
+  }
+  @media (max-width: 991.98px){
+   .navbar{
+    padding: 20px 20px !important;
+   }
+  }
