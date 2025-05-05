@@ -23,8 +23,8 @@
   }
   .hero-section .header-left p{
     max-width: 500px;
-    font-weight: 600;
-    color: rgb(138, 135, 135) !important;
+    font-weight: 500;
+    color: #B7B7BA !important;
   }
   .hero-section .header-left h1 span{
     color: #2a2a2a;

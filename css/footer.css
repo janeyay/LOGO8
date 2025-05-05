@@ -10,26 +10,31 @@
   
   .subscribe-section h2 {
     color: white;
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 36px;
+    font-weight: 400;
   }
   
   .subscribe-section p {
     color: white;
     margin-bottom: 30px;
+    font-size: 14px;
+    margin-top: 20px;
   }
   
   .subscribe-section .subscribe-form input[type="email"] {
     border-radius: 5px 0 0 5px;
     height: 50px;
     padding-left: 20px;
+    font-size: 12px;
   }
   
   .subscribe-section .subscribe-form button {
     border-radius: 0 5px 5px 0;
     height: 50px;
+    width: 130px;
     background-color: #665ca7;
     color: white;
+    font-size: 12px;
   }
   
   .subscribe-section .circle-decor {
@@ -112,9 +117,12 @@
     margin-bottom: 20px;
   }
   
+  .footer .logo-bottom{
+    color: rgb(82, 81, 81);
+  }
   .footer p,
   .footer a {
-    color: #777;
+    color: #a4a3a3;
     font-size: 14px;
   }
   

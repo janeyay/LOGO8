@@ -7,7 +7,7 @@
     margin-bottom: 40px;
   }
   .course-section .section-title h2 {
-    font-size: 38px;
+    font-size: 36px;
     font-weight: 400;
   }
   .course-section .category-tabs {
@@ -55,12 +55,12 @@
   }
   .course-section .course-card h6 {
     font-weight: 300;
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 15px;
   }
   .course-section .course-card .price {
     color: #85D1A0;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 400;
     margin-bottom: 15px;
   }
