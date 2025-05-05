@@ -127,7 +127,7 @@
   }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
   .testimonial-section {
     padding: 60px 15px;
   }
@@ -147,5 +147,8 @@
 
   .testimonial-section .pagination-indicator {
     font-size: 13px;
+  }
+  .testimonial-section .testimonial-image {
+    height: 400px;
   }
 }
