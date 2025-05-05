@@ -102,4 +102,11 @@
     .hero-section p {
       font-size: 14px;
     }
+  
+
+  }
+  @media (max-width: 500px){
+    .hero-section .row .girl-image{
+       width:200px !important ;
+    }
   }
