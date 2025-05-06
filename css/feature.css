@@ -124,10 +124,23 @@
       width: 300px;
       text-align: center;
     }
+    .feature-section .br-right-custom{
+      border: none !important;
+    }
   }
   @media (max-width: 500px){
     .feature-section .feature-box > .row > div{
       width: 200px;
       margin-top: 20px;
+    }
+    .feature-section .br-right-custom{
+      border: none !important;
+    }
+  }
+  @media(min-width:992px)and (max-width:1200px){
+    .feature-section .feature-box > .row > div{
+      width: 200px !important;
+      height: 180px !important;
+      margin-top: 0px;
     }
   }

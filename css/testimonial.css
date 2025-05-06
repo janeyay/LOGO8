@@ -125,6 +125,9 @@
   .testimonial-section .underline-progress {
     width: 80%;
   }
+  .testimonial-section .testimonial-image {
+    height: 200px;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -150,5 +153,16 @@
   }
   .testimonial-section .testimonial-image {
     height: 400px;
+  }
+}
+@media(min-width:992px)and (max-width:1200px){
+  /* .testimonial-section .col-md-6{
+    width: 100px !important;
+  }
+  .testimonial-section p.subtitle {
+    max-width: 100px !important;
+  } */
+  .testimonial-section .testimonial-card {
+    width: 450px !important;
   }
 }

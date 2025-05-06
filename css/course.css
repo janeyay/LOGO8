@@ -166,3 +166,8 @@
       font-size: 14px;
     }
   }
+  @media(min-width:992px)and (max-width:1200px){
+    .course-section .category-tabs {
+      gap: 70px;
+    }
+  }
